@@ -1,21 +1,3 @@
-function layout()
-{
-	doResize();
-
-	window.addEventListener('resize', function(event) {
-		doResize();
-	}, true);
-}
-
-function doResize()
-{
-	let output = document.getElementById("output");
-
-    if(output === null) return;
-
-	// output.style.minHeight = (window.innerHeight - 300).toString() + "px";
-}
-
 function showError()
 {
 	let output = document.getElementById("error");

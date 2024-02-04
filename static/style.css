@@ -157,6 +157,17 @@ html
 	border-top-right-radius: 10px;
 }
 
+.footer .left
+{
+	float: left;
+}
+
+.footer .right
+{
+	float: right;
+	padding-right: 10px;
+}
+
 .content
 {
 	background: transparent;
